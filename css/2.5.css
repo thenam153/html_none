@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div.container{
+	margin-top: 100px;
+}
+.about{
+	margin-left: 180px;
+	width: 670px;
+	margin-top: 15px;
+}
+.khoiimg img{
+	overflow: hidden;
+	width: 320px;
+	height: 180px;
+	margin-right: 10px;
+	margin-top: 10px;
+	transition-delay: 1s;
+	transition: 1.5s;
+
+}
+.l_a{
+	display: block;
+	position: relative;
+	float: left;
+	perspective: 600px;
+}
+.gradien,.content,.content_mini{
+	position: absolute;
+	
+
+}
+.gradien{
+	background-color: black;
+	z-index: 2;
+	top: 10px;
+	width: 320px;
+	height: 180px;
+	opacity: 0.4;
+	transition:1s;
+}
+.content{
+	font-size: 20px;
+	top:50px;
+	left: 90px;
+	color: white;
+	z-index: 3;
+	transition:1s;
+}
+.content_mini{
+	font-size: 15px;
+	top:100px;
+	left: 80px;
+	color: white;
+	margin-right: 10px;
+	z-index: 3;
+	transition:2s;
+}
+a:hover .gradien{
+	opacity: 0;
+	transition: 1s;
+}
+a:hover .content{
+	transform: scale(1.5);
+	transition:1.5s;
+	border: 3px solid #444;
+}
+a:hover .content_mini{
+	transition:2s;
+	color: lightblue;
+	transform:scale(1.2);
+}
+
+a:hover img{
+	transform: rotateX(360deg);
+	transition:1.3s;
+}
+.bo{
+	border: 2px solid #fff;
+	position: absolute;
+	width: 255px;
+	height: 160px;
+	top:10%;
+	left: 10%;
+	z-index:3;
+	transition:1s;
+	opacity: 0;
+}
+a:hover .bo{
+	opacity: 1;
+	transition: 1s;
+}

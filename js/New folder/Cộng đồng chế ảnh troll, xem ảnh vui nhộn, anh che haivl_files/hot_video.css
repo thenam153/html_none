@@ -1,0 +1,57 @@
+.vid {
+    width: 300px;
+}
+.vid .hotVideos {
+    margin: 0;
+}
+.vid .hotVideos .videoItem {
+    margin-bottom: 10px;
+}
+.vid .hotVideos .videoItem a {
+    display: block;
+}
+.vid .hotVideos .videoItem .thumb {
+    position: relative;
+    float: left;
+}
+.vid .hotVideos .videoItem .thumb img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.vid .hotVideos .videoItem .info {
+    margin-left: 125px;   
+}
+.vid .hotVideos .videoItem h4 {
+    margin: 0;
+}
+.vid .hotVideos .videoItem .stats {
+    height: auto;
+    margin: 6px 0 0;
+    color: #707070;
+    font-weight: normal;
+}
+.vid .hotVideos .videoItem .stats .views {
+    background: url(../images/stats_icons.png?v=2) no-repeat transparent;
+    padding: 0 0 0 16px;
+    margin-right: 5px;
+    line-height: 14px;
+    display: inline-block;
+}
+.vid .hotVideos .videoItem .duration {
+    right: 2px;
+    bottom: 2px;
+    position: absolute;
+    padding: 1px 4px;
+    font-weight: bold;
+    font-size: 11px;
+    background-color: #000;
+    color: #fff!important;
+    line-height: 1em;
+    opacity: 0.85;
+    filter: alpha(opacity=75);
+    display: -moz-inline-stack;
+    vertical-align: top;
+    display: inline-block;
+    text-transform: lowercase;
+    text-shadow: none;
+}

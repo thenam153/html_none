@@ -1,0 +1,74 @@
+.tinvan{
+		width: 350px;
+		overflow: hidden;
+		margin-right: 10px;
+		float: left;
+}
+.imgtin{
+	float: left;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+.tintd{
+	text-decoration: none;
+	font-weight: bold;
+	font-family: tahoma;
+	font-size: 12px;
+	color: #000;	
+}
+.nh{
+	font-size: 10px;
+	font-family: tahoma;
+	margin-bottom: 4px;
+}
+.tt{
+	font-size: 13.5px;
+	font-family: tahoma;
+}
+.r{
+	float: right;
+	text-decoration: none;
+	display: block;	
+	font-size: 11px;
+	font-family: tahoma;
+	color: gray;	
+	background-image: url('../img/1.1.png');
+	padding-left: 17px;
+	background-repeat: no-repeat;
+
+}
+.img2{
+	margin-top: 3px;
+	margin-right: 20px;
+
+
+}
+.bd{
+	display: block;
+	position: relative;
+	width: 720px;
+	border-top-color: #414141;
+	border-top-style: solid;
+	border-top-width: 1px;
+	padding: 10px;	
+	margin-bottom: 120px;
+}
+.tinto{
+	width: 720px;
+	margin-bottom: 30px;
+	height: 150px
+}
+.anhto{
+	float: none;
+	margin-right: 10px;
+}
+.p1{
+	float: none;
+}
+.abc{
+	float: left;
+	width: 200px;
+}
+a:hover {
+	color: green;
+}

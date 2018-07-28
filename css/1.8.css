@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.dad {
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/1.8.0.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.banner{
+	width: 313px;
+	height: 30px;
+	font-size: 30px;
+	font-family: 'Shrikhand', cursive;
+	margin: auto;
+	display: block;
+	margin-bottom: 20px;
+}
+.info{
+	font-size: 34px;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	display: block;
+	margin:auto;
+}
+.dad p{
+	font-size: 14px;
+	float: right;
+	display: block;
+	margin-right: 40%;
+}
+.buyadd{
+	display: inline-block;
+	font-size: 40px;
+	background-color: yellow;
+	font-family: tahoma;
+	text-decoration: none;
+	color: white;
+	margin-top: 10px;
+	margin-left: 50%;
+
+}
+.dad1{
+	float: none;
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/1.8.1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}

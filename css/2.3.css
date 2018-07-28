@@ -1,0 +1,79 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+ul.nav.menu {
+    background-color: #d3d1d1;
+}
+
+li.nav-item.ct {
+    margin-left: 38px;
+}
+
+header.hd {
+    width:  100%;
+    background-color: #c2bbbb;
+    position: fixed;
+}
+
+.menu .nav-link {
+    color:  white;
+}
+
+.menu .nav-link:hover {
+    color:  black;
+}
+
+.chapter1 {
+    background-image: url('../img/2.0.jpg');
+    background-repeat:  no-repeat;
+    height:  600px;
+    background-size:  cover;
+    margin-bottom: 1rem;
+}
+
+.chapter2 {
+    background-image: url(../img/2.1.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+}
+
+.chapter3 {
+    background-image: url(../img/2.0.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+}
+
+.chapter4 {
+    background-image: url(../img/2.3.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+}
+
+.chapter5 {
+    background-image: url(../img/2.0.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+}
+
+.chapter6 {
+    background-image: url(../img/2.5.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+}
+
+.chapter7 {
+    background-image: url(../img/2.6.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+}
+.bacham{
+	color: white;
+}

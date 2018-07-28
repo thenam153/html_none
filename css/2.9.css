@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.bg{
+	position: relative;
+	width: 1550px;
+	height: 1000px;
+	overflow: hidden;
+}
+.row-left{
+	width: 300px;
+	height: 1000px;
+	position: absolute;
+	background-color: #444;
+	z-index: 1;
+	transition: 1s;
+	transform: translateX(-300px);
+	visibility: hidden;
+	opacity: 1;
+}
+.rl{
+	margin-top: 40px;
+}
+.content{
+	width: 1550px;
+	height: 1000px;
+	position:absolute;
+}
+.ct{
+	text-align: center;
+	font-size: 30px;
+}
+.ct-one{
+	margin-top: 10px;
+	margin-left: 40%;
+}
+
+
+.appear{
+	transform:translateX(0);
+	visibility: unset;
+	opacity: 1;
+}

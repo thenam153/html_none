@@ -1,0 +1,30 @@
+#p1 {
+	font-size: 14px;
+	font-family: arial;
+}
+div {
+	width: 330px;
+	height: 160px;
+	padding-top: 0;
+	padding-left:10px;
+	padding-right: 10px;
+	padding-bottom: 0;
+}
+a {
+	text-decoration: none;
+	color: #414414;
+}
+#p2 {
+	width: 330px;
+	padding: 6px;
+	font-size: 14px;
+	text-align: justify;
+	display: block;
+}
+img {
+	float:left;
+	padding-right: 10px;
+}
+a:hover {
+	color: #78b43d;
+}

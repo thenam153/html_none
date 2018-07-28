@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.big{
+	width: 568px;
+	height: 356px;
+	position: relative;
+	float: left;
+	margin-right: 6px;
+}
+.img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.ground{
+	width: 568px;
+	height: 130px;
+	bottom: 0;
+	left: 0;
+	background-color: #00000000;
+	z-index: 1;
+	position: absolute;
+	background-image: -webkit-linear-gradient(top,#ffffff00,#00000094);
+	transition: 0.3s;
+
+}
+.infor{
+	position: absolute;
+	bottom: 0;
+	font-size: 27px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	z-index: 2;
+	margin-left: 13px;
+	margin-bottom: 10px;
+	margin-right: 12px;
+	display: block;
+}
+.link:hover .ground{
+	opacity: 0.6;
+}
+.small{
+	position: relative;
+	width: 281px;
+	height: 175px;
+	float: left;
+	margin-bottom: 6px;
+	margin-right: 6px;
+}
+.small .link .img{
+	position: absolute;
+	width: 281px;
+	height: 175px;
+
+}
+.small .link .ground{
+	width: 281px;
+	height: 95px;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	
+}
+.small .link  .infor.small-layer{
+	width: 260px;
+	font-size: 13px;
+	margin-left: 10px;
+	margin-bottom: 9px;
+	margin-right: 0;
+	bottom: 0;
+	position: absolute;
+}
+.container{
+	width: 1150px;
+	margin:auto;
+}

@@ -1,0 +1,36 @@
+.tieude{
+	width: 423px;
+	height: 312px;
+	float: left;
+	margin-right: 10px
+}
+.anh{
+	width: 423px;
+	height: 312px;
+}
+.tt{
+	font-size: 15px;
+	font-family: tahoma;
+	background-color: black;
+	opacity: 0.5;
+	padding:10px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	position: relative;
+	top:-61px;
+}
+.tt:hover{
+	opacity: 0.7;
+	color: white;
+}
+.tintrai{
+	 width: 347px;
+    float: left;
+    margin-left: 10px;
+}
+
+.nd img{
+	display: block;
+	width: 137px;
+}

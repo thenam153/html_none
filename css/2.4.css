@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin: 20px 0;
+}
+img.img-cont {
+    width:  150px;
+    height:  120px;
+}
+h4.name {
+    cursor: pointer;
+}
+.colblue{
+	color: lightblue;
+}
+body{
+	position: relative;
+}
+.name:hover{
+	color: lightblue;
+}

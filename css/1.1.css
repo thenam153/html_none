@@ -1,0 +1,28 @@
+a {
+	text-decoration: none;
+	color: #333;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: arial;
+}
+img {
+	margin-top: 12px;
+	margin-right: 10px;
+	margin-bottom: 12px;	
+	float: left;
+}
+a:hover{
+	color: #78b43d;
+}
+div {
+	float: left;
+	width: 312px;
+	height: 85px;
+	display: block;
+}
+section {
+	width:624px;
+}
+section div{
+	margin-top: 11px;
+}

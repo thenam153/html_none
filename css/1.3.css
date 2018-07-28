@@ -1,0 +1,39 @@
+.tieude{
+	font-family: tahoma;
+	background-color: white;
+	position:  relative;
+	display:  inline-block;
+	top: 29px;
+	left: 30px;
+	padding: 0px 10px;
+}
+.td {
+	border-bottom: 2px solid orange;
+	position: relative;
+	top: -40px;
+}
+.tt{
+	font-size: 8px;
+	font-family: tahoma;
+}
+.tin{
+	width: 150px;
+	height: 150px;
+	margin-right: 10px;
+	float: left;
+}
+.tin a{
+	text-decoration: none;
+	color: blue;
+	line-height: 13px;
+	display: block;
+}
+.tin img{
+	width: 150px;
+}
+.tinto{
+		width: 630px;
+}
+.tin:nth-child(4n){
+	margin-right: 0px;
+}

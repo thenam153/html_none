@@ -1,0 +1,28 @@
+.hieuung {
+    width: 90%;
+    margin:  10px 15px;
+}
+
+.khoi h3 {
+    font-weight:  bold;
+    background-color: #ff7d7d;
+    padding: 10px;
+     text-align:  center;
+}
+
+.nd {
+    margin:  10px 0;
+    background-color: #fff5f5;
+}
+
+.container h1 {
+ 
+    background-color: #d8d0d0c2;
+}
+.khoi h3:hover{
+	background-color: #456;
+}
+h3.green{
+	background: lightblue;
+	color: #fff;
+}
