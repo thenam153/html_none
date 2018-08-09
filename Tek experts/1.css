@@ -1,0 +1,276 @@
+*{margin: 0; padding: 0;} 
+
+header{
+
+}
+.nav-custom{
+	padding: 26px 134px 30px 134px;
+	background-color: white;
+	border-radius: 0;
+}
+.nav-custom a:hover{
+	color: #0084c0;
+}
+.nav-me{
+	display: block;
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.nav-me a{
+	color: #828282;
+}
+.nav-pos-1{
+	top: 20px;
+	right: 150px;
+}
+.nav-pos-2{
+	top:70px;
+	right: 120px;
+}
+.nav-pos-2 li{
+	padding-left: 25px!important;
+	padding-right: 25px!important;
+	padding-bottom: 14px;
+	z-index: 1000;
+	display: block;
+}
+.nav-col.nav-dis-1{
+	position: absolute;
+	width:200px;
+	margin-top: 13px;
+	margin-left: -26px;
+	padding-left: 6px;
+	text-transform: none;
+}
+.nav-col.nav-dis-1 ul li{
+	width: 80px;
+	list-style: none;
+	display: block;
+	float: left;
+	text-align: center;
+	padding-left: 0!important;
+	padding-right: 0px!important;
+	padding: 10px;
+}
+.nav-col.nav-dis-2{
+	position: absolute;
+	width:650px;
+	text-transform: none;
+	margin-top: 13px;
+	padding-left: 10px;
+	margin-left: -26px;
+	padding-top: 10px;
+}
+.nav-col.nav-dis-2 ul li{
+	width: 90px;
+	list-style: none;
+	float:left;
+	display: block;
+	padding-left: 0!important;
+	padding-right: 0px!important;
+	text-align: center;
+}
+
+.nav-col ul li>a{
+	text-decoration: none;
+	position: relative;
+}
+.nav-dis-1{
+	display: none;
+}	
+.nav-dis-2{
+	display: none;
+}
+.nav-hover .about-us{
+	border: 1px solid transparent;
+}
+.nav-hover .support{
+	border: 1px solid transparent;
+}
+.nav-hover .about-us:hover {
+	background-color: white;
+	border: 1px solid #e7e7e7;
+	border-radius: 3px 3px 0;
+	border-bottom-width: 0;
+}
+.nav-hover .about-us:hover .nav-dis-1{
+	display: block;
+	background-color: white;
+	border-radius: 0 0 3px 3px;
+	border: 1px solid #e7e7e7;
+	border-top-width: 0;
+}
+.nav-hover .support:hover{
+	background-color: white;
+	border: 1px solid #e7e7e7;
+	border-radius: 3px 3px 0;
+	border-bottom-width: 0;
+}
+.nav-hover .support:hover .nav-dis-2{
+	display: block;
+	background-color: white;
+	border-radius: 0 0 3px 3px;
+	border: 1px solid #e7e7e7;
+	border-top-width: 0;
+}
+
+
+
+.by-me{
+	position: absolute;
+	top:101px;
+	height: 10px;
+	width: 100%;
+}
+
+.form-me{
+	border-color: #e7e7e7;
+}
+.form-me select{
+	padding: 0 1rem;
+	border-radius: 5px;
+	height: 2.5rem;
+}
+.form-me select option{
+	margin-top: 10px;
+	border-radius: 3px;
+}
+i.fa{
+	font-size: 20px;
+}
+.nav-pos-1 a:hover i.fa-google-plus{
+	color: red;
+}
+.nav-pos-1 a:hover i.fa-instagram{
+	color: orange;
+}
+.nav-pos-1 a:hover i.fa-facebook-f{
+	color: blue;
+}
+a.left,a.right{
+	top: 48%;
+}
+
+.cap-me{
+	width: 50%;
+	text-align: left;
+	top: 5%;
+	font-size: 20px;
+	left: 40%;
+}
+.cap-me h1{
+	margin-bottom: 2rem;
+}
+.nav-custom.nav-mini{
+		padding: 4px 134px!important;
+		transform: translateY(-100%);
+		transition: 0.2s;
+}
+.nav-custom.nav-mini .nav-me
+{
+	top:5px;
+	right: 120px;
+}
+.content-1{
+	z-index:0;
+	position: relative;
+}
+.index-z{
+	z-index: -1;
+}
+.content-2{
+	position: relative;
+	top: 0%;
+	padding: 4rem 8rem;
+}
+.in{
+	transform: translateY(0)!important;
+	
+}
+.in-1{
+	opacity: 1!important;
+	transform: rotate(45deg);
+}
+.col-me-9 .container-fluid{
+	overflow: hidden;
+}
+
+.col-me-9 h2{
+	margin-bottom: 1rem;
+}
+.col-me-9 img{
+	margin-left: 1rem;
+	margin-right: 1rem;
+	float: right;
+	display: inline-block;
+	position: relative;
+	top:10px;
+	left: 10px;
+}
+.col-me-9 a{
+	text-decoration: none;
+	font-size: 20px;
+}
+.col-me-9 p{
+	display: inline-block;
+}
+.col-me-3 img{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.col-me-3 p{
+	color: #0084c0;
+	font-size: 17px;
+}
+.curkec{
+	margin-bottom: 1rem;
+}
+.curkec a{
+	text-decoration: none;
+}
+.curkec a.a-hover:hover p{
+	color: #414141;
+}
+.down{
+	margin-top: 4rem;
+	width: 150%;
+	border-top:1.5px solid #dcdcdc;
+	position: relative;
+	margin-left: -20px;
+	margin-right: 50%;
+}
+.dd{
+	width: 30px;
+	height: 18px;
+	content: " ";
+	margin-top: -1.5px;
+	background-image: url(bg-bg.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 50%;
+	margin-left: -15px;
+}
+.up{
+	display: block;
+	opacity: 0;
+	width: 70px;
+	height: 70px;
+	padding: 1rem;
+	border-radius: 3px;
+	border: 1px solid #444;
+	transform: rotate(45deg);
+	position: fixed;
+	bottom: 20%;
+	right: 0;
+    box-shadow: 0 0 2px 1px rgba(0,0,0,.2);
+    transition: 0.5s;
+}
+.up:hover{
+	transform: translateY(-10px) rotate(45deg) ;
+}
+.nav-link.active{
+	color: blue;
+}
