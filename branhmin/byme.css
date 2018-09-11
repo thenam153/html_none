@@ -1,0 +1,483 @@
+*{margin: 0; padding: 0;}
+
+.s-c-3 p {
+    color: #fdfdfd;
+}
+
+.s-c-3 h4 {
+    color: white;
+}
+
+
+
+.s-c-1 h4 {font-family: 'Montserrat', sans-serif;font-size:  40px;line-height:  64px;font-weight: 400;color: white;}
+
+.s-c-1 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:  900;
+    font-size: 50px;
+    line-height: 75px;
+    color: #fdca4a;
+}
+
+.s-c-1 h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:  600;
+    font-size:  40px;
+    line-height:  60px;
+    color: #fff;
+}
+
+h3 {}
+
+.s-c-2 h3 {
+    margin-top: 8rem;
+    margin-bottom:  1rem;
+}
+
+.navbar .nav a.nav-link {
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:  700;
+    line-height: 18px;
+    transition: 0.3s;
+} 
+.navbar ul.nav li.nav-item a.nav-link:hover{
+	color: #fdca4a;
+}
+.nav-me{
+	float: right;
+}
+.navbar{
+	background-color: transparent;
+	border-radius: 0;
+	padding: 1.7rem 2rem 1.3rem;
+	transition: 0.3s;
+	z-index: 1000;
+}
+.navbar a.navbar-brand .img-me{
+	width: 180px;
+	transition: 0.3s;
+}
+
+.navbar.nav-scroll{
+	background-color: rgba(51, 51, 51, 0.90);
+	padding: 0.8rem 2rem 0.7rem;
+	position: fixed;
+	width: 100%;
+}
+.navbar.nav-scroll a.navbar-brand .img-me{
+	width: 150px;
+}
+.navbar.nav-scroll ul.nav li.nav-item a.nav-link{
+	color: white;
+	
+}
+.navbar.nav-scroll ul.nav li.nav-item a.nav-link:hover{
+	color: #fdca4a;
+}
+.navbar a.navbar-brand{
+	line-height: 20px;
+}
+
+
+.navbar ul.nav li.nav-item{
+	margin-left: 2rem; 
+}
+.boss{
+	border:2px solid #fdca4a;
+	padding: 0 1rem;
+}
+
+/*========================================================*/
+
+.content::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.content{
+	position: relative;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+	overflow: hidden;
+}
+.s-c-1::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.s-c-1{
+	background-image: url(slide.jpg);
+	background-size: cover;
+	padding: 13rem 0 10rem;
+	position: relative;
+}
+.button .btn{
+	border-radius: 0;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 13px  1.5rem;
+	margin: 1rem 10px;
+	transition: 0.3s;
+}
+.btn-1{
+	background-color: #fdca4a;
+	color: black;
+}
+.btn-1:hover{
+	background-color: #000;
+	color: white;
+}
+.btn-2{
+	background-color: white;
+	color: black;
+}
+.btn-2:hover{
+	background-color: #d4d4d4;
+	color: black;
+}
+.s-c-1::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #00000091;
+	top: 0;
+}
+
+
+/*=====================================================*/
+
+.s-c-2::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.s-c-2{
+	background-image: url('about_bg.jpg');
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+.head li {
+    margin-left: 9px;
+    float:  left;
+    padding-right: 9px;
+    border-right: 2px solid;
+    font-size:  17px;
+    line-height: 20px;
+}
+.head li:first-child {
+    margin-left: 0;
+}
+.head li:last-child {
+    border:0;
+}
+ul.head {
+    list-style: none;
+    /* clear:  both; */
+    overflow:  hidden;
+}
+/*.canava {
+    border: 4px solid black;
+    width: 80px;
+    height: 80px;
+    line-height: 73px;
+    text-align:  center;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+}*/
+/*.canava::before{
+	content: "";
+	border: 4px solid #ddd;
+    width: 80px;
+    height: 80px;
+    line-height: 73px;
+    text-align:  center;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+*/
+
+/*============================*/
+
+
+
+/* Preloader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
+
+/*=======================================*/
+canvas { /* let's center this bad boy*/
+    margin:0 auto;
+    display:block;
+}
+.canava{
+	height: 300px;
+}
+/*=====================================*/
+
+.s-c-3::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.s-c-3{
+	position: relative;
+	background-image: url('service_bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 5rem;
+}
+.s-c-3::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #00000063;
+	width: 100%;
+	height: 100%;
+}
+.s-c-3 h1{
+	position: relative;
+	color: #fff;
+	font-size: 40px;
+	line-height: 60px;
+	font-weight: 600;
+}
+.box-me{
+	background-color: black;
+	padding: 50px 15px ;
+	margin: 0 15px;
+	height: 230px;
+	margin-bottom: 5rem;
+	transition: .5s ease;
+	width: 330px;
+	float: left;
+	position: relative;
+}
+.box-me img{
+	left: 146px;
+	margin-bottom: 1rem;
+	position: absolute;
+	animation: fadeout 0.5s forwards;
+}	
+.box-me p{
+	position: absolute;
+	top: 120px;
+	display: none;
+	opacity: 0;
+	animation: fadeint 0.5s forwards;
+	padding:0 15px;
+}
+
+.s-c-3 hr{
+	width: 80px;
+	border-width: 4px;
+	display: inline-block;
+	border-color: #fdca4a;
+	position: relative;
+}
+.box-me:hover p{
+	animation: fadein 0.5s forwards;
+	display: block;
+}
+.box-me h4{
+	animation: fadeout 0.5s forwards;
+	top: 110px;
+	position: absolute;
+	left: 121px;
+}
+.box-me:hover h4{
+	animation: fade 0.5s forwards;
+}
+.box-me:hover img{
+	animation: fade 0.5s forwards;
+}
+@-webkit-keyframes fade{
+	0%
+	{
+		transform: translateY(0);
+	}
+	100%
+	{
+		transform: translateY(-30px);
+		
+	}
+}
+@-webkit-keyframes fadeout{
+	0%
+	{
+		transform: translateY(-30px);
+	}
+	100%
+	{
+		transform: translateY(0px);
+		
+	}
+}
+@-webkit-keyframes fadein{
+	0%
+	{
+		opacity: 0;
+	}
+	100%
+	{
+		opacity: 1;
+		
+	}
+}
+@-webkit-keyframes fadeint{
+	0%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		opacity: 0;
+		
+	}
+}
+/*==============================*/
+/*commit 7 38 1 9 2018*/
+
+.img-nam{
+	border-radius: 50%;
+	/*min-height: 350px;*/
+}
+.me{
+	display: block;
+	padding-left: 10px;
+	padding-top: 30px;
+	font-size: 23px;
+	font-family: 'Montserrat', sans-serif;
+	margin:20px;
+}
+.me span{
+	display: block;
+	margin-bottom: 10px;
+	font-weight: 700;
+
+}
+.s-c-4{
+	padding:40px 0;
+}
+.row-info:nth-child(2n) .oder1{
+	order: 2;
+}
+.row-info:nth-child(2n) .oder2{
+	order: 1;
+}
+@media (max-width: 700px)
+{
+	.row-info:nth-child(2n) .oder1{
+	order: 1;
+}
+.row-info:nth-child(2n) .oder2{
+	order: 2;
+}
+}
+/*===================================*/
+.s-c-5{
+	padding-top:30px;
+}
+.s-c-5 h1{
+	display: block;
+	margin: auto;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.s-c-5 .nt{
+	min-height: 300px;
+	padding-bottom: 20px
+}
+
+/*===================================*/
+footer{
+	background: url('fulhd.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-size: 15px;
+	color: white;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+
+}
+footer::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #0000008a;
+
+}
+footer .textcenter{
+	text-align: center;
+	position: relative;
+}
+footer .container{
+	padding:40px 0}
+footer .img-nam{
+	width: 250px;
+	height: 250px;
+}
+
+
+/*==========================*/
+.navbar-brand{
+	font-weight: 700;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #fdca4a!important;
+}
+/*=====================*/
+.backtotop{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	z-index: 10000;
+	display: none;
+	transition: 0.5s;
+}
+.backtotop a{color: #fdca4a;}
+
+/*===============================*/
