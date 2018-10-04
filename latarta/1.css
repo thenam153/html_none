@@ -1,0 +1,142 @@
+*{margin: 0; padding: 0;}
+
+
+.add{
+	font-family: 'Quattrocento', serif;
+	padding: 0.8rem 0px 0.8rem 0;	
+	background-color: #ff3478;
+	color: white;
+}
+.add a{
+	color: white;
+}
+.add .row .col-sm-3{
+	padding-top: 5px;
+}
+.add .fa-me{
+	color: black;
+}
+.fa-me{
+	position: absolute;
+	top: 9px;
+	right: 20px;
+}
+.ip{
+	padding: 5px 16px;
+	border-radius: 3px;
+	border-width: 1px;
+}
+
+
+.brand-me.navbar-brand{
+	background: url(logo.svg) no-repeat center top;
+	/*max-width: 15px;*/
+	display: inline-block;
+	font-size: 25px;
+	background-size: 42px;
+	padding-top: 40px;
+	font-family: 'Yellowtail', cursive;
+	font-size: 25px;
+	color: #166472;
+}
+.collapse .nav-me li a.nav-link{
+	padding-top: 30px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 16px;
+	color: #166472;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+ li.nav-item {
+	 margin: 0 60px;
+	 padding-bottom: 30px;
+}
+.navbar{
+	padding:0.5rem 0 0 0;
+}
+/*li.nav-item {
+    margin: 0 60px;
+} */
+
+.hot{
+
+}
+.hot-me{
+	position: absolute;
+	left: 10%;
+	width: 80%;
+	top: 96px;
+	padding: 0 30px;
+}
+.buying{
+	display: inline-block;	
+	margin: 10px auto;
+}
+.buying-0{
+	width: 100%;
+}
+.buying-1{
+	font-size: 22px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: bold;
+	color: #166472;
+}
+.buying-2{
+	float: right;
+}
+.number{
+	width: 40px;
+	padding-left: 10px;
+}
+.btn-dau{
+	width: 30px;
+	height: 30px;
+	padding: 0 3px 3px 0;
+	border-radius: 17px;
+	background-color: black;
+	color: white;
+}
+.btn-add{
+	width: 80%;
+	background-color: #ff3478;
+	margin: 40px 10% 0 10%;
+	padding: 15px 0;
+	font-size: 16px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+	border-radius: 30px;
+}
+.hr-me{
+	width: 100%;
+	margin: 30px auto;
+}
+.img-card{
+	width: 100%;
+}
+.card-text{
+	font-family: 'Quattrocento', serif;
+	font-size: 16px;	
+	line-height: 28px;
+}
+.hot-me{
+	border:1px solid rgba(0, 0, 0, 0.13);
+	border-top-width: 0;
+	opacity: 0;
+	visibility: hidden;
+}
+@-webkit-keyframes down{
+	0%{
+		transform: translateY(-50);
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+.hot:hover .hot-me{
+	animation: down 0.5s forwards;
+	visibility: visible;
+}
